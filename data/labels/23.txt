@@ -1,0 +1,2 @@
+ 	Mean	BX	BY	Width	Height
+1	106.679	692	968	116	56
