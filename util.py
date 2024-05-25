@@ -24,7 +24,7 @@ def read_measurements(filename):
             entries = line.split()
             # Add the data from that specific line into the measurements array
             # measurements.append(list(map(float, entries[1:])))
-            measurements.append([int(float(entry)) for entry in entries[2:]])
+            measurements.append([int(float(entry)) for entry in entries[1:]])
             line = f.readline()
     
 
